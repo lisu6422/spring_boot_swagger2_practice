@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/product")
-@Api(value="onlinestore", description="Operations pertaining to products in Online Store")
+@Api(value = "onlinestore", description = "Operations pertaining to products in Online Store")
 public class ProductController {
 
   private ProductService productService;
